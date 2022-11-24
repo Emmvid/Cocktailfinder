@@ -1,20 +1,17 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Error = () => {
   return (
-    <section className='error-page section'>
-      <div className='error-container'>
-        <h1> 
-          This page is currently empty
-          </h1> 
-          <Link to="/" className='btn btn-primary'>
+    <section className="error-page section">
+      <div className="error-container">
+        <h1>This page is currently empty</h1>
+        <Link to="/" className="btn btn-back">
           Back to Home
-          </Link>
-        
+        </Link>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Error
+export default Error;
