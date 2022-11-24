@@ -1,3 +1,3 @@
-#### A simple application built with React and CocktailFinderDB API
+#### A simple application built with React and CocktailDB API
 
 
